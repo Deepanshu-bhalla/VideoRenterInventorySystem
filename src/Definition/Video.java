@@ -12,4 +12,14 @@ public class Video {
     private boolean checkOut;
 
     //methods
+
+    /**
+     * This method returns the name of the video.
+     *
+     * @return The name of the video
+     */
+    public String getVideoName() {
+        return videoName;
+    }
+
 }
